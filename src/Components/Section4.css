@@ -1,0 +1,254 @@
+.section4 {
+  position: absolute;
+  width: 1240px;
+  height: 792px;
+  left: 100px;
+  top: 2704px;
+  /* border: 2px solid red; */
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+
+  position: absolute;
+  width: 388px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  /* border: 2px solid green; */
+}
+
+#psec4a {
+  width: 142px;
+  height: 34px;
+
+  /* Subtitle 1 */
+
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 190%;
+  /* or 34px */
+
+  text-transform: uppercase;
+
+  /* Outline dark */
+
+  color: #b0b0c0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* border: 2px solid red; */
+}
+#psec4b {
+  width: 388px;
+  height: 62px;
+
+  /* H2 */
+
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+
+  /* Text Primary */
+
+  color: #181b32;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* border: 2px solid red; */
+}
+.studentText{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 128px;
+
+position: absolute;
+width: 1240px;
+height: 633px;
+left: 0px;
+top: 159px;
+/* border: 2px solid red; */
+}
+#studentText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.review{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 610px;
+height: 327px;
+left: 627px;
+top: 128px;
+
+/* border: 2px solid red; */
+}
+#studentimg{
+    float: left;
+}
+.name{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 19px;
+
+width: 243px;
+height: 89px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.review .name{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+    
+    
+    /* Text Primary */
+    
+    color: #181B32;
+    /* border: 2px solid red; */
+}
+.flagdesc{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 202px;
+height: 34px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.flag1{
+    /* border: 2px solid green; */
+    box-sizing: border-box;
+
+width: 34px;
+height: 34px;
+
+background: url(Flag.png);
+Background: White;
+
+border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 13px rgba(45, 48, 56, 0.1));
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#img1{
+    align-self: center;
+}
+.flag1{
+    display: flex;
+}
+.textCourse{
+    width: 158px;
+height: 34px;
+
+/* Body text - 18 */
+
+font-family: 'Axiforma';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 190%;
+/* or 34px */
+
+
+/* Body text */
+
+color: #666680;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.section4b{
+    width: 610px;
+height: 188px;
+
+/* H4 */
+
+font-family: 'Axiforma';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 180%;
+/* or 47px */
+
+
+/* Text Primary */
+
+color: #181B32;
+
+mix-blend-mode: normal;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#studA{
+    width: 502px;
+height: 633px;
+
+background: #FCEAE3;
+border-radius: 60px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#slider{
+    position: absolute;
+width: 86px;
+height: 10px;
+left: 0px;
+top: 408px;
+}

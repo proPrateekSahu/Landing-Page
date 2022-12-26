@@ -1,0 +1,179 @@
+.box1 {
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 47px;
+justify-content: center;
+align-items: center;
+
+position: absolute;
+width: 289px;
+height: 281.99px;
+left: 49px;
+top: 189.69px;
+}
+
+
+
+#c1 {
+  position: absolute;
+  left: 0%;
+  right: 16.38%;
+  top: 0%;
+  bottom: 16.38%;
+
+  /* background: linear-gradient(244.07deg, #accdff 47.24%, #8fbcff 120.34%);
+  backdrop-filter: blur(6.5px); */
+}
+
+#c2 {
+  position: relative;
+  left: -6.64%;
+  right: 31.4%;
+  top: 15.15%;
+  bottom: 31.61%;
+
+  /* background: #accdff;
+  opacity: 0.5;
+  filter: blur(8.5px); */
+}
+#c3 {
+  position: absolute;
+  left: 16.38%;
+  right: 0%;
+  top: 16.38%;
+  bottom: 0%;
+
+  /* background: rgba(172, 205, 255, 0.35);
+  backdrop-filter: blur(12px); */
+}
+#c4 {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 45.65%;
+  right: 25.08%;
+  top: 41.47%;
+  bottom: 25.08%;
+
+  /* background: linear-gradient(
+    268.13deg,
+    #ffffff 7.44%,
+    rgba(255, 255, 255, 0.2) 115.42%
+  ); */
+  /* box-shadow: 5px 5px 10px rgba(172, 205, 255, 0.5);
+  backdrop-filter: blur(7.5px); */
+}
+.cardTitle {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  /* Text Primary */
+
+  color: #181b32;
+}
+.cardBody {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 190%;
+  /* or 34px */
+
+  text-align: center;
+
+  /* Body text */
+
+  color: #666680;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.desc{
+  /* display: flex; */
+/* flex-direction: column; */
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 289px;
+height: 154px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.img-container{
+  position: relative;
+  width: 301px;
+  height: 140px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* align-items: center; */
+
+}
+.cardBox{
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  /* width: 289px;
+height: 281.99px; */
+}
+.indBox{
+  width: 289px;
+height: 281.99px;
+}
+#indBox1{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 47px;
+
+position: absolute;
+width: 289px;
+height: 281.99px;
+left: 49px;
+top: 189.69px;
+
+}
+#indBox2{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 46px;
+
+position: absolute;
+width: 301px;
+height: 283.08px;
+left: 459px;
+top: 188.69px;
+}
+#indBox3{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 45px;
+
+position: absolute;
+width: 329px;
+height: 281.9px;
+left: 866px;
+top: 189.69px;
+}

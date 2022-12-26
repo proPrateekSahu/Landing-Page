@@ -1,0 +1,222 @@
+#middleNav ul {
+  list-style: none;
+  display: flex;
+  gap: 44px;
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#middleNav {
+  margin-inline: auto;
+}
+.navLast {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+
+  width: 148px;
+  height: 52px;
+
+  /* Background - White */
+
+  background: #ffffff;
+  border-radius: 73px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+#lg2{
+  position: absolute;
+  width: 18.45px;
+  height: 35.06px;
+  left: 36.73px;
+  top: 8.47px;
+
+  background: #ffc0b4;
+  border-radius: 2px;
+  /* transform: matrix(1.2, 0.2, -1, 0.9, 0, 20); */
+  transform: skew(-20deg);
+
+}
+#lg1 {
+  position: absolute;
+width: 18.45px;
+height: 35.06px;
+left: 18.45px;
+top: 8.47px;
+
+/* Primary 200 */
+
+background: #524FD5;
+border-radius: 2px;
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  transform: skew(-20deg);
+}
+
+.section1 {
+  position: absolute;
+  width: 1376px;
+  height: 817px;
+  left: 32px;
+  top: 32px;
+
+  /* Secondary */
+
+  background: #fff5f1;
+  border-radius: 40px;
+}
+#section1img {
+  position: absolute;
+  width: 684px;
+  height: 690px;
+  left: 665px;
+  top: 127px;
+}
+.navl {
+  width: 84px;
+  height: 28px;
+
+  /* Button - small */
+
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+
+  /* Primary 200 */
+
+  color: #524fd5;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.containerSect1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 18px;
+
+  width: 558px;
+  height: 299px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 100px;
+  margin-top: 248px;
+}
+.text1 {
+  width: 558px;
+  height: 213px;
+
+  /* H1 */
+
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 126%;
+  /* or 71px */
+
+  /* Text Primary */
+
+  color: #181b32;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#uniqueText {
+  color: #524fd5;
+}
+.text2 {
+  width: 350px;
+  height: 68px;
+
+  /* Body text - 18 */
+
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 190%;
+  /* or 34px */
+
+  /* Body text */
+
+  color: #666680;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.btn {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+
+width: 171px;
+height: 64px;
+
+/* Primary 200 */
+
+background: #524FD5;
+border-radius: 73px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#trig {
+  width: 107px;
+  height: 30px;
+
+  /* Button */
+
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Background - White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
